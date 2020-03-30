@@ -21,8 +21,8 @@ lazy val root =
 lazy val library =
   new {
     object Version {
-      val pureConfig = "0.12.2"
-      val scalaTest  = "3.1.0"
+      val pureConfig = "0.12.3"
+      val scalaTest  = "3.1.1"
     }
     val pureConfig = "com.github.pureconfig" %% "pureconfig" % Version.pureConfig
     val scalaTest  = "org.scalatest"         %% "scalatest"  % Version.scalaTest
